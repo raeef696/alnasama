@@ -346,7 +346,19 @@
     border-bottom: 1px solid #0572ce;
     box-shadow: 0 1px 0 0 #0572ce;
   }
-
+.content-call-us-submit{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.content-call-us-submit input{
+    width: 160px;
+    height: 40px;
+    background-color: #0061EF;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
   /* start footer  */
 .back-grund-footer{
     background-color: #0061EF;
@@ -395,7 +407,42 @@
     list-style-type: none;
     padding: 3px 0;
 }
-
 .footer-who-are-we{
    padding-right: 60px;
+}
+
+.title-latest-articles{
+    margin: 60px auto;
+    width: 22%;
+}
+.title-latest-articles h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+    border-bottom: 6px solid #0061EF;
+    border-radius: 10px;
+}
+.all-latest-articles{
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-body .card-text{
+    max-width: 250px;
+    height: 100px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+.card .card-body .card-title a{
+    text-decoration: none;
+    color: #000;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: all .42s ease-in-out;
+}
+.card img:hover{
+    transform: scale(1.1);
 }
